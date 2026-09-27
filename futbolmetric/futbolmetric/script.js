@@ -26,6 +26,23 @@ const guides=[['Cómo elegir botas de fútbol','Empieza por la superficie: una s
 function guide(i){const g=guides[i];$('modalContent').innerHTML=`<span class="brand-pill">GUÍA 0${i+1}</span><h2>${g[0]}</h2><p class="modal-guide">${g[1]}</p><button class="btn" id="closeGuide">Entendido</button>`;$('modal').classList.add('open');$('modal').setAttribute('aria-hidden','false');$('closeGuide').onclick=closeModal;}
 function bindDynamic(){document.querySelectorAll('[data-product]').forEach(b=>b.onclick=()=>productDetail(b.dataset.product));}
 function closeModal(){$('modal').classList.remove('open');$('modal').setAttribute('aria-hidden','true')}
+// Google Analytics
+(function () {
+  const GA_ID = 'G-5LVQTRN6XF';
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function () {
+    window.dataLayer.push(arguments);
+  };
+
+  window.gtag('js', new Date());
+  window.gtag('config', GA_ID);
+
+  const script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+  document.head.appendChild(script);
+})();
 $('find').onclick=search;document.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{const t=b.dataset.c;if(t==='speed'){let d=+$('sd').value,s=+$('st').value;$('sr').value=d>0&&s>0?(d/s*3.6).toFixed(2)+' km/h':'Introduce datos válidos'}if(t==='sprint'){let d=+$('srd').value,s=+$('srt').value,x=+$('target').value;$('srr').value=d>0&&s>0&&x>0?(s*x/d).toFixed(2)+' s (estimación lineal)':'Introduce datos válidos'}if(t==='convert'){let v=+$('cv').value,d=$('dir').value;$('cr').value=v>=0?(d==='a'?(v/3.6).toFixed(2)+' m/s':(v*3.6).toFixed(2)+' km/h'):'Introduce un valor válido'}});
 if(localStorage.getItem('fm-theme')==='dark')document.body.classList.add('dark');$('theme').onclick=()=>{document.body.classList.toggle('dark');localStorage.setItem('fm-theme',document.body.classList.contains('dark')?'dark':'light')};if(localStorage.getItem('fm-cookie')==='1')$('cookies').classList.add('hidden');$('accept').onclick=()=>{localStorage.setItem('fm-cookie','1');$('cookies').classList.add('hidden')};
 $('modalClose').onclick=closeModal;$('modal').onclick=e=>{if(e.target===$('modal'))closeModal()};document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});document.querySelectorAll('[data-guide]').forEach(b=>b.onclick=()=>guide(+b.dataset.guide));fillCompare();$('compareA').onchange=renderCompare;$('compareB').onchange=renderCompare;
