@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://futbolmetric.vercel.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://futbolmetric.vercel.app/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+<url><loc>https://futbolmetric.vercel.app/guias/como-elegir-botas-futbol.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/guias/ag-vs-fg-mg-tf.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/guias/como-saber-si-una-bota-te-queda-bien.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/guias/como-cuidar-botas-futbol.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/nike-vapor17-academy.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/nike-vapor17-pro.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/nike-phantom6-low-academy.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/nike-phantom6-low-pro.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/nike-tiempo-react-gato.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/adidas-f50-league-fg-mg.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/adidas-f50-league-ag.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/adidas-predator-league-ag.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/adidas-copa-pure3-league.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/puma-ultra6-match.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/puma-future9-match.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://futbolmetric.vercel.app/botas/puma-future9-pro.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
